@@ -15,10 +15,6 @@
 #include <netinet/ip_icmp.h>
 #include <string.h>
 
-/*
- * 获得本机MAC地址
- * 失败返回值小于0，成功返回0
- */
 int getself_macaddr(unsigned char *macaddr)
 {
 	int 			sock;
